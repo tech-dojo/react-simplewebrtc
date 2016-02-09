@@ -1,7 +1,7 @@
 ## react webRTC component built with SimpleWebRTC. ##
 
 **1.Include the script "https://simplewebrtc.com/latest-v2.js" in the header of the html.**
-**Put the  webRTC component in the render function inside div.
+**2.Put the  webRTC component in the render function inside div.
 and pass obj = {infoObject} for props.**
 
 ### example use case ###
@@ -28,11 +28,9 @@ constructor(props) {
       signalmasterUrl : "www.example.com"
     }
     return ( < div >
-<WebRtc obj = {infoObject}/>
-    </div>
-
-
-    );
+            <WebRtc obj = {infoObject}/>
+            </div>
+           );
   };
 }
 ```
