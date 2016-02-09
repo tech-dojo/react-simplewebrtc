@@ -1,4 +1,4 @@
-## React webRTC component built with SimpleWebRTC. ##
+## React webRTC component built with SimpleWebRTC ##
 
 The webRTC component takes a roomname for the room to join and the signal server url.
 
