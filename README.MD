@@ -1,14 +1,18 @@
-react webRTC component built with SimpleWebRTC.
+## react webRTC component built with SimpleWebRTC. ##
 
-Do include the script "https://simplewebrtc.com/latest-v2.js" in the header of the html.
-Put the  webRTC component in the render function inside div.
-and pass obj = {infoObject} for props.
+**1.Include the script "https://simplewebrtc.com/latest-v2.js" in the header of the html.**
+**Put the  webRTC component in the render function inside div.
+and pass obj = {infoObject} for props.**
+
+### example use case ###
 
 
-# example use case
-<pre>
-<div class = "hljs">
-<div class="line">
+
+
+```
+#!javascript
+
+
 import WebRtc from 'react-simplewebrtc';
 
 class WebRtcDemo extends React.Component {
@@ -25,12 +29,16 @@ constructor(props) {
     }
     return ( < div >
 <WebRtc obj = {infoObject}/>
-      < /div>
+    </div>
+
+
     );
   };
 }
-</div>
-</div>
-</pre>
+```
+
+
+
+
 
 Jsfiddle example  https://jsfiddle.net/shoque/7jwg7etm/
