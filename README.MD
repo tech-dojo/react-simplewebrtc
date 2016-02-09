@@ -24,7 +24,7 @@ class WebRtcDemo extends React.Component {
         /*provide a valid url for signalmaster otherwise this won't work*/
         signalmasterUrl : "www.example.com"
       }
-      return ( 
+      return (
             < div >
               <WebRtc options = {infoObject}/>
             </div>

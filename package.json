@@ -1,6 +1,6 @@
 {
   "name": "react-simplewebrtc",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "description": "The react webRTC component built with SimpleWebRTC ",
   "main": "react-simplewebrtc.js",
   "scripts": {

@@ -44,7 +44,7 @@ var WebRTC = (function (_React$Component) {
         localVideoEl: _reactDom2['default'].findDOMNode(this.refs.local),
         remoteVideosEl: "",
         autoRequestMedia: true,
-        url: this.props.obj.signalmasterUrl
+        url: this.props.options.signalmasterUrl
       });
 
       console.log("webrtc component mounted");
@@ -86,7 +86,7 @@ var WebRTC = (function (_React$Component) {
   }, {
     key: 'readyToCall',
     value: function readyToCall() {
-      return this.webrtc.joinRoom(this.props.obj.roomname);
+      return this.webrtc.joinRoom(this.props.options.roomname);
     }
   }, {
     key: 'connect',
