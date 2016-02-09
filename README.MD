@@ -1,5 +1,6 @@
 ## react webRTC component built with SimpleWebRTC. ##
 
+The webRTC component takes in roomname for the room to join and the signal server url
 1.Include the script "https://simplewebrtc.com/latest-v2.js" in the header of the html.**
 2.Put the  webRTC component in the render function inside div.
 and pass obj = {infoObject} for props.**
@@ -25,7 +26,7 @@ constructor(props) {
   render() {
     var infoObject = {
       roomname : "test33333",
-      ****provide a valid url for signalmaster otherwise this won't work****
+      /*provide a valid url for signalmaster otherwise this won't work*/
       signalmasterUrl : "www.example.com"
     }
     return ( < div >
